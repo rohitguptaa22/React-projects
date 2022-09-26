@@ -3,6 +3,8 @@ import styles from './HeaderCartButton.module.css';
 import CartContext from '../../store/cart-context';
 import { useContext } from 'react';
 
+
+/* As discussed in the cartContext file, here we will use useContext hook */
 const HeaderCartButton = (props) => {
 	const cartCtx = useContext(CartContext)
 	return (
