@@ -5,6 +5,8 @@ import { useContext } from 'react';
 
 
 /* As discussed in the cartContext file, here we will use useContext hook */
+// consumer component
+
 const HeaderCartButton = (props) => {
 	const cartCtx = useContext(CartContext)
 	return (
